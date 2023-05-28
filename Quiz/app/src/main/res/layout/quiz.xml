@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:scaleType="fitXY">
+
+    <ImageView
+        android:id="@+id/imageBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/red_wallpaper"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/textNum"
+        android:layout_width="fill_parent"
+        android:layout_height="43sp"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:fontFamily="serif"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="0|1|100"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageViewFrame"
+        android:layout_width="372dp"
+        android:layout_height="372dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65sp"
+        android:src="@drawable/frame" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="356dp"
+        android:layout_height="297dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103sp"
+        android:src="@drawable/bobmarley" />
+
+    <TextView
+        android:id="@+id/textTip"
+        android:layout_width="186dp"
+        android:layout_height="93dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460sp"
+        android:background="#FCFFFFFF"
+        android:fontFamily="serif"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Не согласен - критикуй, критикуешь - предлагай, предлагаешь - делай, делаешь - отвечай!"
+        android:textAlignment="center"
+
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/TopLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="600sp">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:fontFamily="serif"
+            android:onClick="varia1"
+            android:text="Ежов"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:backgroundTint="#DC000000" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:text="Жуков"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:backgroundTint="#DC000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/TopLine"
+        android:layout_marginTop="10sp">
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:text="Сталин"
+            android:textSize="16sp"
+            android:fontFamily="serif"
+            app:backgroundTint="#DC000000"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="serif"
+            android:text="Дзержинский"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:backgroundTint="#DC000000" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/Settings"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/settings"
+        android:layout_below="@id/bot"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"/>
+
+
+</RelativeLayout>

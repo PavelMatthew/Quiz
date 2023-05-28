@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FamousCats</string>
+    <string name="button_Start">Приступить</string>
+    <string name="button_ChooseAPerson">Профиль</string>
+    <string name="button_Results">Результаты</string>
+    <string name="button_Thank">Поблагодарить</string>
+    <string name="button_Settings">Настройки</string>
+
+</resources>
